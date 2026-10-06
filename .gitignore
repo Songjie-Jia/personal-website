@@ -1,0 +1,14 @@
+# Generated output and local tools
+/dist/
+/node_modules/
+/.vercel/
+/.agents/
+/.codex/
+/.env*
+# Original uploads and unrelated local research; deployed copies live in assets/ and cv/.
+/*.pdf
+/*.mp4
+/*.png
+/modular_robotics_review/
+/themes/
+/cv/Songjie_Jia_CV.pdf

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cable-Pneumatic Soft Robot project page for Songjie Jia.">
+    <title>Cable-Pneumatic Soft Robot | Songjie Jia</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="../index.html#home">Home</a>
+        <a href="../index.html#education">Education</a>
+        <a href="../index.html#research">Research</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#publications">Publications</a>
+        <a href="../index.html#cv">CV</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="section page-hero">
+        <p class="breadcrumb"><a href="../index.html#projects">Projects</a> / Cable-Pneumatic Soft Robot</p>
+        <h1>Cable-Pneumatic Soft Robot</h1>
+        <p class="hero-summary">
+          An integrated fabrication and simulation framework for a newly developed cable-pneumatic soft robotic system.
+        </p>
+      </section>
+      <section class="section detail-layout detail-layout-single">
+        <div class="detail-content">
+          <article class="detail-block"><h2>Overview</h2><p>A cable-pneumatic soft robotic system combining pneumatic actuation for large shape morphing with cable actuation for controllable motion. An integrated fabrication and simulation framework was developed for the system.</p></article>
+          <article class="detail-block"><h2>Background</h2><p>Pneumatic actuation enables large deformation and compliant motion, while cable actuation provides more precise and responsive control. Existing hybrid systems remain limited in flexibility and efficient simulation of coupled pneumatic–cable mechanics.</p></article>
+          <article class="detail-block"><h2>Technical Approach</h2><p>The robot combines a fabricated inflatable pneumatic core, cable actuation, and Arduino-based pressure and motor control. A lumped-parameter model captures membrane deformation, bending, pressure, and cable forces with substantially fewer degrees of freedom than conventional FEM.</p></article>
+          <article class="detail-block"><h2>Results</h2><p>Experiments validated the model against bending stiffness and actuation-angle measurements, while demonstrating substantially faster computation than conventional FEM. Physical prototypes further demonstrated adaptive grasping, omnidirectional bending, manipulation, and UR5e cobot co-simulation.</p></article>
+          <article class="detail-block">
+            <h2>Videos</h2>
+            <div class="detail-media">
+              <video controls preload="metadata" playsinline>
+                <source src="../assets/videos/cable-pneumatic-soft-robot.mp4" type="video/mp4">
+                Your browser does not support embedded MP4 video.
+              </video>
+            </div>
+          </article>
+          <article class="detail-block"><h2>Related Publications</h2><p>S. Jia and Y. Zhu, “Cable Pneumatic Robot: Fabrication and Simulation,” <em>Soft Robotics</em>, Apr. 2026. DOI: <a href="https://doi.org/10.1177/21695172261442061">10.1177/21695172261442061</a>.</p></article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><p>© <span id="year"></span> Songjie Jia.</p><a href="../index.html#home">Home</a></footer>
+    <script src="../script.js"></script>
+  </body>
+</html>
